@@ -87,7 +87,7 @@ body, html{height:100%;}
 .slide-2-box em i{color:#eaca77;}
 .nav-list{margin:0 0 0px;width:100%;overflow:hidden;}
 .nav-list li{float:left;background:#000;    width: calc(33.33% - 1px);position:relative;height:194px;overflow:hidden;}
-.nav-list > li{border-right: 1px solid rgba(255,255,255, 0.1);    border-top: 1px solid rgba(255,255,255, 0.1);display: table-cell;float: none;}
+.nav-list > li{border-right: 1px solid rgba(255,255,255, 0.1);border-top: 1px solid rgba(255,255,255, 0.1);}
 .nav-list li img{float:right;-webkit-transition:all 0.2s linear;transition:all 0.2s linear;}
 .nav-list li:hover img{transform:scale(1.2, 1.2);}
 .nav-list li strong{position:absolute;top:43px;left:42px;font-size:25px;line-height:26px;font-family:'Conv_ArnoPro-LightDisplay_0';text-transform:uppercase;letter-spacing:1.3px;color:#fff;z-index:4;}
@@ -360,8 +360,8 @@ body, html{height:100%;}
 .search2 input.text-active.focus, .search2 input.text-active {color: #000;}
 .search2 input.btn-search2{margin:8px 0 0 -2px;padding:0;background:url(../images/sprite.png) no-repeat -130px 0;height:16px;width:16px;text-indent:-9999px;overflow:hidden;cursor:pointer;}
 /* brands */
-.add-nav{margin:0 0 -4px;padding:17px 0 0;background:#f9f9f9;text-align:center;border-bottom:1px solid #ebebeb;box-shadow:0 0 4px #ebebeb;}
-.add-nav li{display:inline-block;margin:0 10px;font-size:14px;line-height:16px;text-transform:uppercase;letter-spacing:0.6px;}
+.add-nav{margin:0 0 -4px;padding:17px 0 0 104px;background:#f9f9f9;text-align:left;border-bottom:1px solid #ebebeb;box-shadow:0 0 4px #ebebeb;}
+.add-nav li{display:inline-block;margin:0 22px;font-size:14px;line-height:16px;text-transform:uppercase;letter-spacing:0.6px;}
 .add-nav a{display:block;padding:0 0 16px;text-decoration:none;color:#515151;}
 .add-nav li.active{font-family:'Conv_Roboto-Medium_0';}
 .add-nav li.active a{border-bottom:3px solid #eaca77;}
@@ -1251,6 +1251,8 @@ input.button-form{padding:0px 0 0 0;}
     .navigation li{float: none;width: 100%;}
     .footer-holder{padding-top: 45px;height: 195px;}
     .content-holder{max-width: 820px;margin: 0 auto;}
+    .add-nav{text-align: center;padding-left: 0}
+    .add-nav li{margin: 0 2.5%;}
 }
 @media (max-width: 1280px){
     .add-nav li{margin:0 29px;}
